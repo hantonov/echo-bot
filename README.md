@@ -11,3 +11,9 @@ pip install pip-tools
 pip-compile
 pip-sync requirements.txt
 ```
+
+## deploy to Azure 
+
+```bash
+az webapp deployment source config-zip --resource-group <resource group>  --name habot-app --src ./echo-bot.zip
+```

@@ -1,6 +1,7 @@
 botbuilder-core>=4.7.0
 aiohttp
 flask
+gunicorn
 # for development
 pylint
 pytest
